@@ -1,8 +1,8 @@
 const cypress = require('cypress')
 const tesults = require('cypress-tesults-reporter');
 
-cypress.run({
-  // specs to run here
+cypress.run({  
+  browser: 'firefox'
 })
 .then((results) => {
   const args = {
